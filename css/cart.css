@@ -1,0 +1,78 @@
+.cart_container {
+    margin: 5em 0;
+    padding: 2em 5em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(248, 232, 255);
+}
+
+tr {
+    transition: 0.3s;
+}
+
+tr:hover {
+    background-color: rgb(245, 220, 255);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(241, 209, 255);
+}
+
+tr:nth-child(even):hover {
+    background-color: rgb(233, 183, 255);
+}
+
+th {
+    font-size: 2rem;
+    background-color: rgb(236, 193, 255);
+    padding: 1em 0;
+}
+
+td {
+    padding: 1em 0;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.quantity {
+    width: 50%;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(178, 178, 178);
+    border-radius: 5px;
+    color: black;
+    padding: .3em;
+}
+
+.remove {
+    outline: none;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 9px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: .5em 2em;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.remove:hover {
+    border: 1px solid rgb(184, 0, 0);
+    background-color: rgb(184, 0, 0);
+}
+
+
+/* card */
+.card_container {
+    padding: 2em 5em;
+    margin: 5em 0;
+}
+.content_contaienr{
+    background-color: white;
+    border: 1px solid rgb(172, 172, 172);
+    width: 30%;
+    padding: 1em;
+}
