@@ -59,14 +59,15 @@ if (isset($_POST['add_user'])) {
             <label for="user_password">Enter User Password</label>
             <input type="password" name="password" class="form-control" id="user_password" aria-describedby="emailHelp" placeholder="Enter User Password" value="<?php echo $password ?? ''  ?>">
             <p class="text-danger"><?php echo $error['password']  ?? '' ?></p>
+
         </div>
 
         <div class="form-group">
             <label for="Product_category">Add Roles</label>
             <select id="Product_category" name="product_category" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                    <option>Hello</option>
-                    <option>WOW</option>
-                    <option>HASH</option>
+                <option>Hello</option>
+                <option>WOW</option>
+                <option>HASH</option>
             </select>
         </div>
 
